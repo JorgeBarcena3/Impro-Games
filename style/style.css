@@ -1,9 +1,15 @@
+@font-face {
+    font-family: 'Retrochips';
+    src: url("../assets/Retrochips.otf");
+}
+
 *{              
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'B612', sans-serif;
+    font-family: sans-serif;
     box-sizing: border-box;
+    color:white;
 }
 
 a{
@@ -31,4 +37,38 @@ body
 #header > img
 {
     height: 15vh;
+}
+
+#improBody
+{
+    height: 75vh;
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.buttons_container
+{
+    display: inline-grid;
+}
+
+.buttons_container > button
+{
+    width: 70vw;
+    height: 7vh;
+    color:white;
+    padding: 15px;
+    margin-bottom: 2vh;
+    border-radius: 1px;
+    border:none;
+    background-color: rgb(154, 6, 190);
+    font-family: "Retrochips";
+    letter-spacing: 1px;
+    
+}
+
+#footer
+{
+    height: 5vh;
+    text-align: center;
+    font-size: 15px;
 }
